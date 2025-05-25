@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Assignment 3</title>
+        <style>
+            .edit_details{
+                width: 300px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .row{
+                display: flex;
+            }
+            .text{
+                width: 200px;
+                font-size: 15px;
+                flex: 1;
+            }
+            .textinput{
+                width: 150px;
+                font-size: 15px;
+                flex: 1;
+            }
+            .buttoninput{
+                width: 50px;
+                font-size: 12px;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+            }
+            .end{
+                width: 150px;
+                font-size: 15px;
+                flex: 1;
+            }
+            .group{
+                display: flex;
+                gap: 0px;
+            }
+        </style>
+        <body>
+
+            <h1>Edit your Details</h1>
+
+            <div class="edit_details">
+                <div class="row">
+                    <div class="text">Username:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Password:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Full Name:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Email:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Phone Number:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Address:</div>
+                    <div class="textinput">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="text">Hotel Branch:</div>
+                    <div class="end">
+                    <select>
+                        <option>Terengganu</option>
+                        <option>Terengganu 2</option>
+                        <option>Terengganu 3</option>
+                    </select>
+                    </div>
+            </div>
+            <div class="group">
+                <button class="buttoninput">Update</button>
+                <button class="buttoninput">Delete</button>
+            </div>
+        </body>
+    </head>
+</html>
