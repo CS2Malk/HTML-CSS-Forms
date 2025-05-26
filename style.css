@@ -1,0 +1,35 @@
+.edit_details{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row{
+    display: flex;
+}
+.text{
+    width: 200px;
+    font-size: 15px;
+    flex: 1;
+}
+.textinput{
+    width: 150px;
+    font-size: 15px;
+    flex: 1;
+}
+.buttoninput{
+    width: 50px;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.end{
+    width: 150px;
+    font-size: 15px;
+    flex: 1;
+}
+.group{
+    display: flex;
+    gap: 0px;
+}
